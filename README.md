@@ -46,7 +46,10 @@ Step 1:
 ```
 git clone https://github.com/Mohammad-Amirifard/Intrusion_Detection.git
 ```
-
+Step 2:
+```
+pip install -r requirements.txt
+```
 
 
 
