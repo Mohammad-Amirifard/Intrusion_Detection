@@ -24,7 +24,7 @@ you can see detail of available dataset on this [link](https://www.unb.ca/cic/da
 - 📦 ....
   |- 📄 README.md        #Guide file
   |- 📄 License.md      #License file
-  |- 📂 Data             #Here you can see dataset/link.
+  |- 📂 Data             #Here you can see dataset link.
   |- 📂 Notebooks        #Here you can see jupyter files which should be run on Google Colab or Kaggle.
   |- 📂 Src              #Here you can see python files to run
   |- 📂 Report           #Here you can see a complete report of what we have done.
