@@ -33,12 +33,12 @@ you can see detail of available dataset on this [link](https://www.unb.ca/cic/da
 # **Structure of notebooks**
 `This program includes several notebooks regarding different parts.
 
-1.   Notebook number 1, [Part1_EDA](https://)
-2.   Notebook number 2, [Part1_KNN_Models](https://)
-3.   Notebook number 3, [Part3_SVM_Models](https://)
-4.   Notebook number 4, [Part4_Gboost_Model](https://)
-5.   Notebook number 5, [Part5_MLP_Model](https://)
-6.   Notebook number 6, [Part6_Conclusion](https://)
+1.   Notebook number 1, [Part1_EDA](https://github.com/Mohammad-Amirifard/Intrusion_Detection/blob/main/Notebooks/Part1_EDA.ipynb)
+2.   Notebook number 2, [Part2_KNN_Models](https://github.com/Mohammad-Amirifard/Intrusion_Detection/blob/main/Notebooks/Part2_KNN_Models.ipynb)
+3.   Notebook number 3, [Part3_SVM_Models](https://github.com/Mohammad-Amirifard/Intrusion_Detection/blob/main/Notebooks/Part3_SVM_Models.ipynb)
+4.   Notebook number 4, [Part4_Gboost_Model](https://github.com/Mohammad-Amirifard/Intrusion_Detection/blob/main/Notebooks/Part4_GBoost_Model.ipynb)
+5.   Notebook number 5, [Part5_MLP_Model](https://github.com/Mohammad-Amirifard/Intrusion_Detection/blob/main/Notebooks/Part5_MLP_Model.ipynb)
+
 
 
 # **Guide to run:**
