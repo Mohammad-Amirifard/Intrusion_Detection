@@ -42,7 +42,8 @@ you can see detail of available dataset on this [link](https://www.unb.ca/cic/da
 
 
 # **Guide to run:**
-Step 1:
+# Option one: Run it locally.For this, copy and paste the following commands in terminal of your IDE.
+Step 1: 
 ```
 git clone https://github.com/Mohammad-Amirifard/Intrusion_Detection.git
 ```
@@ -55,6 +56,11 @@ Step 3:
 ```
 pip install -r .\requirement.txt
 ```
+Step 4: 
+```
+jupyter notebook
+```
+Step 5: Run each file you need. There is no necessity to run them in order.
 
 
 
