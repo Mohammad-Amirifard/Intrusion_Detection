@@ -62,7 +62,7 @@ jupyter notebook
 ```
 Step 5: Run each file you need. There is no necessity to run them in order.
 
-# Option 2: Run files on Colab or Kaggle. There is no necessity to run them in order.
+# Option 2: Run files of Notebooks folder on Colab or Kaggle. There is no necessity to run them in order.
 
 
 # Result
