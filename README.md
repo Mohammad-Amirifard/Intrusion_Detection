@@ -42,7 +42,9 @@ you can see detail of available dataset on this [link](https://www.unb.ca/cic/da
 
 
 # **Guide to run:**
-
+```
+git clone https://github.com/Mohammad-Amirifard/Intrusion_Detection.git
+```
 
 
 
