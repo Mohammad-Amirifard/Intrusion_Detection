@@ -53,7 +53,7 @@ cd .\Intrusion_Detection\
  
 Step 3:
 ```
-pip install -r requirements.txt
+pip install -r .\requirement.txt
 ```
 
 
