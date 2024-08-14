@@ -42,7 +42,7 @@ you can see detail of available dataset on this [link](https://www.unb.ca/cic/da
 
 
 # **Guide to run:**
-# Option one: Run it locally.For this, copy and paste the following commands in terminal of your IDE.
+# Option 1: Run it locally.For this, copy and paste the following commands in terminal of your IDE.
 Step 1: 
 ```
 git clone https://github.com/Mohammad-Amirifard/Intrusion_Detection.git
@@ -62,7 +62,7 @@ jupyter notebook
 ```
 Step 5: Run each file you need. There is no necessity to run them in order.
 
-
+# Option 2: Run files on Colab or Kaggle. There is no necessity to run them in order.
 
 
 
