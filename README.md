@@ -1,4 +1,23 @@
-# Intrusion_Detection
+# **Intrusion Detection Using Machine Learning Techniques On CIC-IDS2017 Dataset**
+
+Created By [Mohammad Amirifard](https://www.linkedin.com/in/mohammad-amirifard/)
+
+
+<img src="https://www.teligentsolutions.com/wp-content/uploads/2015/04/Teligent_Solutions_Intrusion_Detection.jpg" alt="Image" />
+
+#**Structure of notebooks**
+`This program includes several notebooks regarding different parts.`
+
+This is **notebook number 2**, called **Part2_KNN_Models**
+
+For other notebooks you can use the following links:
+
+
+1.   Notebook number 1, [Part1_EDA](https://)
+2.   Notebook number 3, [Part3_SVM_Models](https://)
+3.   Notebook number 4, [Part4_Gboost_Model](https://)
+4.   Notebook number 5, [Part5_MLP_Model](https://)
+
 This repository aims to investigate several ML Anomaly Detection Models on CIC-IDS2017 Dataset.
 # Traffic-forecasting
 Given traffic sequences as input, forecast future traffic
