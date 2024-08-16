@@ -120,8 +120,7 @@ In a nut shell, the selection of a machine learning model for multi-class anomal
     <title></title>
 </head>
 <body>
-    <img src="https://drive.google.com/uc?export=view&id=1zn-wpJgfOO6Pa_w-Kk35BgwNwwPm70gh" width="50%">
+    <img src="https://drive.google.com/uc?export=view&id=14OhX1Ivx8-ToWm8VmbIK0Ol7k4KjPEt7" width="50%">
 </body>
 </html>
-
 
