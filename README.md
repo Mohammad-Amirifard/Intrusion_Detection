@@ -67,5 +67,36 @@ Step 5: Run each file you need. There is no necessity to run them in order.
 
 # Result
 
+This analysis evaluates various machine learning models applied to anomaly detection tasks across multiple classes. The models were assessed using three primary metrics: **Weighted F1 Score**, **Macro F1 Score**, and **Accuracy**. These metrics provide a comprehensive understanding of each model's performance, particularly in handling class imbalances and overall prediction accuracy.
+
+### Key Observations
+
+1. **K-Nearest Neighbors (KNN):**
+   - **Performance Consistency:** The KNN models (`KNN_1`, `KNN_2`, `KNN_3`) all demonstrate exceptional accuracy (0.998 or 0.996) and Weighted F1 Scores (0.998, 0.998, 0.996). This consistent performance underscores the effectiveness of KNN for anomaly detection tasks.
+   - **Macro F1 Score Variability:** Despite high overall performance, the Macro F1 Scores for KNN models range from 0.902 to 0.915. This suggests that while KNN is excellent at overall prediction accuracy, it may face challenges with class imbalance, particularly in detecting minority classes.
+
+2. **Support Vector Machines (SVM):**
+   - **Kernel Impact:** The SVM models show a notable performance drop compared to KNN. `SVM_1` with a linear kernel achieved a Weighted F1 Score of 0.947 and an Accuracy of 0.954, while `SVM_2` with an RBF kernel showed a slight improvement, achieving a Weighted F1 Score of 0.96 and an Accuracy of 0.966.
+   - **Macro F1 Score Challenge:** Both SVM models have significantly lower Macro F1 Scores (0.528 for linear kernel and 0.558 for RBF kernel), indicating that SVM may struggle with class imbalance, particularly in correctly identifying less frequent classes.
+
+3. **Gradient Boosting (GBoost):**
+   - **High Performance:** GBoost continues to demonstrate very high performance, with a Weighted F1 Score of 0.997 and Accuracy of 0.997. However, the Macro F1 Score (0.863) is lower than the other metrics, similar to KNN, indicating potential difficulties in handling minority classes effectively.
+   - **Balanced Trade-off:** GBoost offers a strong balance between high accuracy and handling class distribution, making it a robust choice when accuracy is prioritized but some attention to minority classes is needed.
+
+4. **Multi-Layer Perceptron (MLP):**
+   - **Balanced and Improved Performance:** The MLP model achieved a Weighted F1 Score of 0.977 and an Accuracy of 0.978, which are both high, indicating strong overall performance. Its Macro F1 Score (0.696) is higher than that of SVM, suggesting better handling of class imbalances, although still lower than KNN and GBoost.
+   - **Complexity and Flexibility:** The MLP configuration, involving multiple layers and tuning parameters (e.g., dropout, epochs, learning rate), demonstrates the potential of neural networks in achieving a balance between accuracy and handling class imbalance, albeit with more complexity.
+
+# Conclusion
+
+- **KNN as the Leading Performer:** KNN emerges as the top-performing model for this anomaly detection task, with the highest accuracy and Weighted F1 Scores across most configurations. However, the slight dip in Macro F1 Scores indicates that KNN may not be the best choice when the focus is on minority class detection.
+  
+- **SVM's Mixed Results:** SVM models, particularly with the RBF kernel, show decent accuracy but struggle significantly with class imbalance, as reflected in their low Macro F1 Scores. This makes SVM less ideal in scenarios where equal performance across all classes is critical.
+
+- **GBoost for High Accuracy with Some Trade-offs:** GBoost is a strong alternative when high accuracy is the primary goal. However, it may require additional methods to enhance performance on minority classes, given its lower Macro F1 Score.
+
+- **MLP for a Balanced Approach:** The MLP model offers a balanced and slightly improved approach compared to SVM, making it a good candidate when you need a reasonable trade-off between overall accuracy and class imbalance handling, though it may require more tuning and computational resources.
+
+In a nut shell, the selection of a machine learning model for multi-class anomaly detection depends on the specific goals—whether the emphasis is on overall accuracy, the detection of minority classes, or the availability of resources for model tuning. **KNN** and **GBoost** stand out in terms of raw performance, while **MLP** offers a more balanced approach. **SVM**, though accurate, shows the need for careful consideration when dealing with class imbalances
 
 
