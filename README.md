@@ -111,7 +111,7 @@ In a nut shell, the selection of a machine learning model for multi-class anomal
 | 6     | MLP    | RF                         | no_neurons_1=64, no_neurons_2=128, no_neurons_3=128, dropout_rate=0.2, epoch=10, batch_size=32, learning_rate=0.0001, activation='relu' | 0.977 | 0.696 | 0.978 |
 
 
-# **Split dataset**
+# **Figure 1**
 <!DOCTYPE html>
 <html lang="en">
 <head>
