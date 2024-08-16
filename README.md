@@ -97,6 +97,18 @@ This analysis evaluates various machine learning models applied to anomaly detec
 
 - **MLP for a Balanced Approach:** The MLP model offers a balanced and slightly improved approach compared to SVM, making it a good candidate when you need a reasonable trade-off between overall accuracy and class imbalance handling, though it may require more tuning and computational resources.
 
-In a nut shell, the selection of a machine learning model for multi-class anomaly detection depends on the specific goals—whether the emphasis is on overall accuracy, the detection of minority classes, or the availability of resources for model tuning. **KNN** and **GBoost** stand out in terms of raw performance, while **MLP** offers a more balanced approach. **SVM**, though accurate, shows the need for careful consideration when dealing with class imbalances
+In a nut shell, the selection of a machine learning model for multi-class anomaly detection depends on the specific goals—whether the emphasis is on overall accuracy, the detection of minority classes, or the availability of resources for model tuning. **KNN** and **GBoost** stand out in terms of raw performance, while **MLP** offers a more balanced approach. **SVM**, though accurate, shows the need for careful consideration when dealing with class imbalances.
+
+# Table 1:
+| Index | Models | Feature Selection Methods | Configuration | F1 Score Weighted Avg | F1 Score Macro Avg | Accuracy |
+|-------|--------|---------------------------|---------------|-----------------------|--------------------|----------|
+| 0     | KNN_1  | Random_Forest              | k = 3, p = 2, metric = manhattan | 0.998                 | 0.915              | 0.998    |
+| 1     | KNN_2  | Mutual Information         | k = 3, p = 2, metric = manhattan | 0.998                 | 0.914              | 0.998    |
+| 2     | KNN_3  | RF                         | k = 3, p = 2, metric = manhattan | 0.996                 | 0.902              | 0.996    |
+| 3     | SVM_1  | RF                         | kernel=Linear, regularization_term=l2, regularization_parameter=1.5, max_iter=1000, loss_function=hinge | 0.947 | 0.528 | 0.954 |
+| 4     | SVM_2  | RF                         | kernel=rbf, degree=2, regularization_parameter=1 | 0.960                 | 0.558              | 0.966    |
+| 5     | GBoost | RF                         | learning_rate=0.1, n_estimators=150 | 0.997               | 0.863              | 0.997    |
+| 6     | MLP    | RF                         | no_neurons_1=64, no_neurons_2=128, no_neurons_3=128, dropout_rate=0.2, epoch=10, batch_size=32, learning_rate=0.0001, activation='relu' | 0.977 | 0.696 | 0.978 |
+
 
 
